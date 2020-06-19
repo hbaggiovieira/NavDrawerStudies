@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.servicos.ServicosFragment" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="Serviços prestados"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut cursus tellus. Mauris sed nisl vitae lectus mattis commodo. Suspendisse non purus vitae metus imperdiet rhoncus. Vestibulum pretium tortor eu condimentum congue. Suspendisse potenti. Morbi maximus nulla vitae blandit cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod ante sit amet elit tincidunt, in congue felis luctus. Pellentesque tincidunt mi vel vehicula pellentesque. Donec purus nunc, malesuada aliquam eleifend maximus, scelerisque ac dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam ut enim placerat, ornare nunc in, lacinia odio. Integer dapibus porta blandit. Quisque egestas tortor vitae nisl gravida, vitae efficitur est scelerisque. Nullam sodales feugiat fermentum. "
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+</androidx.constraintlayout.widget.ConstraintLayout>
